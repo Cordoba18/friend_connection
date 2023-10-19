@@ -1,0 +1,130 @@
+
+.content{
+    background-color: black;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 40px 90px;
+    background-color: #ECEE81;
+    border-radius: 30px;
+
+    animation: slideInFromTop 1s ease-in-out;
+
+}
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%) translateX(-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(-50%) translateX(-50%);
+      opacity: 1;
+    }
+  }
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content .content-form input,.content .content-form select{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    border: 0.5px solid gray;
+
+}
+
+.content .content-logo{
+    height: 250px;
+    width: 100%;
+}
+.content .content-logo .logo{
+    height: 100%;
+}
+
+.content .content-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.content .content-form h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.content .content-form label{
+font-weight: 600;
+font-size: 18px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.content .content-form button{
+    width: 100%;
+    background-color: #9376E0;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+}
+.content .content-form button:hover{
+
+    background-color: black;
+    color: white;
+}
+
+.content .content-form a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: all 0.1s ease-out;
+}
+
+.content .content-form a:hover{
+    border-bottom: #9376E0 solid 4px;
+}
+.content .content-form #error, .content .content-form #error_code{
+
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+@media(max-width:700px){
+
+    .content{
+        margin: 0;
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    body{
+        font-size: 10px;
+    }
+
+    body h1{
+        font-size: 12px;
+    }
+
+
+    body h2{
+        font-size: 12px;
+    }
+
+    body label {
+        font-size: 10px;
+    }
+    body .navbar h1{
+        font-size: 25px;
+    }
+
+}
