@@ -26,7 +26,7 @@
                     <img style=" width: 100%;
             height: 400px;
             object-fit: cover;"
-                        src="https://friendconnectionjccq.000webhostapp.com/logo_FD%20.png" alt="">
+                        src="https://friendconnectionjccq.000webhostapp.com/storage/icons/logo_FD.png" alt="">
                 </div>
                 <h1 style="font-weight: bold;">FRIEND CONNECTION</h1>
             </div>

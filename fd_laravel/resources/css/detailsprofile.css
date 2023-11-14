@@ -53,6 +53,9 @@ display: flex;
     width: 50px;
     height: 50px;
 }
+.content_publication_edit_content_info h1{
+    font-size: 20px;
+}
 .content_publication_edit_content_info_left_like_img img{
     width: 100%;
     height: 100%;
